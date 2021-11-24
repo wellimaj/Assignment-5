@@ -4,4 +4,65 @@
 .container, .content {
 width: 100%;
 height: 100%;
+
+}
+
+.card{
+    display:flex;
+    background-color: white;
+    border-bottom:solid 1px grey;
+    border-right:solid 1px grey;
+    width:80vw;
+    height: 50vh;
+    margin: 10vh;
+    
+}
+.img-sec{
+    
+    width:20vw;
+    background-color:#91c673;
+    
+}
+.imgdiv{
+    display: flex;
+    width:20vw;
+    justify-content:center;
+    height:50vh;
+    
+
+}
+img{
+    width:25vw;
+    
+}
+
+.text{
+    margin-left: 8vw;
+    
+    
+    
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+}
+.button{
+    padding-top:13px;
+    font-size:13px ;
+    background-color:#91c673; 
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    color:white;
+    height:30px;
+    width:120px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+    
+
 }
